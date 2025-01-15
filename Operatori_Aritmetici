@@ -1,0 +1,38 @@
+x = 10
+y = 5
+
+print (x + y)
+
+print (x - y)
+
+print (x * y)
+
+print (x / y)
+
+# int( x / y ) converts x/y result int an integer value
+print(int(x / y))
+
+#float(x) converts integer value x into a float value
+print (float(x))
+
+print(x)
+
+x = float(x)
+
+print(x)
+
+x=int(x)
+print(x)
+
+print(x**y)
+
+print(x/y)
+print(x//y)
+
+print(10/3)
+print(10//3)
+
+print(1/2)
+print(1//2)#prende solo la parte intera del risultato della divisione
+
+print(x%y) #ritorna il resto della divisione x/y
