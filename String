@@ -1,0 +1,35 @@
+# single line basestring
+string_A = "Hello World"
+
+# multiple-line stringa
+string_B= "This is \
+    multiple\
+    line\
+    string"
+    
+print (string_A[0])
+print (string_A[3])
+print (string_A[10])
+
+#lowcase = minuscolo
+print(string_A.lower())
+
+#uppercase = maiuscolo
+print(string_A.upper())
+
+#title case = rende maiuscole la prima lettera della stringa e la prima lettera dopo lo spazio
+print(string_A.title())
+
+
+string1: str = 'Hello World'
+x: int = 10
+y: float = 0.5
+bln: bool = True
+
+print (string1[0])
+print (string1[8])
+
+#se la stringa ha n caratteri, quindi è lunga n, dove n è un numero intero il primo carattere
+#si trova in posizione 0 (string[0])
+#l'ultimo carattere della stringa si trova in posizione n-1
+#string1[n-1]
