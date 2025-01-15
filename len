@@ -1,0 +1,15 @@
+string1: str = 'Hello World'
+x: int = 10
+y: float = 0.5
+bln: bool = True
+
+len(string1) #ritorna la lunghezza della stringa string1
+
+print(len(string1))
+
+print (f'la stringa ha lunghezza: {len(string1)}')
+
+string2: str = "Ciao come stai?\t io sto, benissimo!\n "
+print (string2)
+
+print ("User\\Documents\\python")
