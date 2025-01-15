@@ -1,0 +1,10 @@
+alice_age = 25
+print("alice's 1 ages = ",  alice_age)
+
+godwayne_age = 24
+print(godwayne_age)
+
+alice_age = 30
+print ("alice's 2 ages = ",  alice_age)
+
+print (type(20))
