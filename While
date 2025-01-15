@@ -1,0 +1,10 @@
+#while
+
+contatore: int = 0
+
+while contatore <= 10:
+    
+    print (f'Sono nel while! {contatore}')
+    
+    contatore += 1
+    
