@@ -1,0 +1,33 @@
+articolo1 = 5.0
+
+articolo2 = 10.0
+
+articolo3 = 27.85
+
+sum = 0
+
+# sum = articolo1 + articolo2 + articolo3 -> Modo 1
+
+sum = sum + articolo1 # assegna alla variabile sum il valore 0 + 5.0 = 5.0
+
+print (sum)
+
+sum = sum + articolo2 # aggiorna il valore della variabile sum con il valore 5.0 + 10.0 = 15.0
+print(sum)
+
+sum += articolo3 # è uguale a sum + articolo3
+print(sum)
+
+i = 0
+
+i += 1
+print(i)
+
+i += 1
+print(i)
+
+i += 5
+print(i)
+
+i *= 4 # i=i*4 -> 7*4 = 28
+print(i)
