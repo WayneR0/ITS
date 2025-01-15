@@ -1,0 +1,13 @@
+def funzione_1 (para1 : int, para2: int):
+    
+    results: int = para1 + para2
+    
+    return results
+    
+risultato: int = funzione_1(2,3)
+risultato_2: int = funzione_1(10,2)
+
+print (f'{risultato = } {risultato_2 = }')
+
+''' *args in funzione è una variabile che si chiama args per 
+convenzione che ti lascia uitlizza un numero aperto di variabili in una funzione'''
