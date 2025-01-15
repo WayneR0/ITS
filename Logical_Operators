@@ -1,0 +1,10 @@
+x = True
+y = False
+
+print (x and y) # output: False perchè X è True e Y è False
+
+print(x or y) # output: True perchè almeno una è True
+
+print(not x) #output: False perchè l'iversa di x = True è False
+
+print(x and not y) #output: True perchè not y = True
