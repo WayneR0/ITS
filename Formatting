@@ -1,0 +1,12 @@
+name = "Godwayne"
+last_name = "Rasalan"
+
+print("Hello " + name + " " + last_name)
+
+print(f"Hello {name} {last_name}")
+
+p = 3.141592
+
+print(f"The value of p is {p:.2f}") #prende in cosiderazione solo le prime due cifre decimali (primi due numeri dopo il punto)
+
+print(f"{p:.3f}") #prende in cosiderazione solo le prime tre cifre decimali (primi tre numeri dopo il punto)
